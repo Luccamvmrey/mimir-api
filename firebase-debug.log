@@ -1,0 +1,55 @@
+[debug] [2024-06-13T02:22:29.455Z] ----------------------------------------------------------------------
+[debug] [2024-06-13T02:22:29.456Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Rodrigo Ramos\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-06-13T02:22:29.457Z] CLI Version:   13.11.2
+[debug] [2024-06-13T02:22:29.457Z] Platform:      win32
+[debug] [2024-06-13T02:22:29.457Z] Node Version:  v18.16.0
+[debug] [2024-06-13T02:22:29.457Z] Time:          Wed Jun 12 2024 23:22:29 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2024-06-13T02:22:29.458Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-13T02:22:29.464Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-13T02:22:29.465Z] > authorizing via signed-in user (luccamvmachadorey@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Rodrigo Ramos\WebstormProjects\robot-receptionist-api
+
+[info] 
+=== Account Setup
+[info] 
+[info] Which account do you want to use for this project? Choose an account or add a new one now
+[info] 
+[debug] [2024-06-13T02:22:38.797Z] setProjectAccount(C:\Users\Rodrigo Ramos\WebstormProjects\robot-receptionist-api, organizacao.nite@gmail.com)
+[info] 
+[info] +  Using account: organizacao.nite@gmail.com 
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-06-13T02:22:40.133Z] > refreshing access token with scopes: []
+[debug] [2024-06-13T02:22:40.135Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-06-13T02:22:40.135Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-06-13T02:22:40.407Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-06-13T02:22:40.407Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-06-13T02:22:40.412Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-06-13T02:22:41.117Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-06-13T02:22:41.117Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project roboatendente-5186f (RoboAtendente) 
+[info] 
+=== Hosting Setup
+[debug] [2024-06-13T02:22:42.361Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/roboatendente-5186f [none]
+[debug] [2024-06-13T02:22:42.807Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/roboatendente-5186f 200
+[debug] [2024-06-13T02:22:42.808Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/roboatendente-5186f {"projectId":"roboatendente-5186f","projectNumber":"763151331411","displayName":"RoboAtendente","name":"projects/roboatendente-5186f","resources":{"hostingSite":"roboatendente-5186f","realtimeDatabaseInstance":"roboatendente-5186f-default-rtdb"},"state":"ACTIVE","etag":"1_019f63a9-47d8-4ef6-bdae-ef5937569eeb"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
