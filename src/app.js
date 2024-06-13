@@ -8,4 +8,4 @@ app.use(bodyParser.json());
 // Endpoint to classes-routes base on query parameters
 app.get("/mimirV1/classes", getClasses);
 
-module.exports = app;
+export default app;
