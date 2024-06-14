@@ -52,8 +52,10 @@ export const getClasses = async (req, res) => {
                 let paramValue;
                 if (param === "dayOfWeek") {
                     paramValue = DayOfWeekEnum[req.query[param]];
+                    classesQuery = classesQuery.where(queryParameters[param], "==", paramValue);
                 } else if (param === "group") {
                     paramValue = GroupEnum[req.query[param]];
+                    classesQuery = classesQuery.where(queryParameters[param], "==", paramValue);
                 } else if (param === "roomNumber" || param === "roomFloor") {
                     paramValue = parseInt(req.query[param]);
                     classesQuery = classesQuery.where(`room.${param}`, "==", paramValue);
